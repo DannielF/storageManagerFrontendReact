@@ -2,9 +2,9 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 
 import "./App.scss";
-import Product from "./product/Product";
-import Nav from "./shared/nav/Nav";
-import NotFound from "./shared/not-found/Not-found";
+import Product from "./pages/product/Product";
+import Nav from "./components/nav/Nav";
+import NotFound from "./components/not-found/Not-found";
 
 function App() {
   return (
