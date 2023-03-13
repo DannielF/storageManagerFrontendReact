@@ -8,7 +8,7 @@ import NotFound from "./shared/not-found/Not-found";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <h1>Storage Manager</h1>
       <Routes>
         <Route path="/" element={<Nav />}>
