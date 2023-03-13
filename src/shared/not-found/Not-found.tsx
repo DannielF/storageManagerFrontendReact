@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Not-found.scss";
 
 function NotFound() {
@@ -10,6 +11,9 @@ function NotFound() {
           alt="not-found"
         />
       </figure>
+      <p>
+        <Link to="/">Go to the home page</Link>
+      </p>
     </div>
   );
 }
